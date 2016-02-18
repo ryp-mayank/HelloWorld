@@ -1,15 +1,13 @@
 package my.company.tests;
 
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-
-import java.lang.System;
-
 /**
  * @author Dmitry Baev charlie@yandex-team.ru
- *         Date: 28.10.13
+ *         Date: 28.10.13t
  */
 public class SearchTest {
 
@@ -22,8 +20,24 @@ public class SearchTest {
 
     @Test
     public void searchTest() throws Exception {
-        System.out.println("this is mayank");
+        Assert.assertTrue(true);
+
+
+
     }
+
+    @Test
+    public void simpleTest() throws Exception {
+       Assert.assertEquals(33, 2323);
+    }
+
+
+
+      @Test
+    public void simpleTestWithAttachments() throws Exception {
+          Assert.assertEquals(33 , 33);
+    }
+
 
 }
 

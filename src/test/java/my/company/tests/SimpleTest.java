@@ -1,4 +1,5 @@
 /*
+
 package my.company.tests;
 
 import org.junit.Test;
@@ -15,11 +16,13 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.fail;
 
+
 */
 /**
  * @author Dmitry Baev charlie@yandex-team.ru
  *         Date: 24.11.13
  *//*
+
 
 public class SimpleTest {
 
@@ -50,18 +53,7 @@ public class SimpleTest {
         makeAttach();
     }
 
-    @Test
-    public void csvAttachmentTest() throws Exception {
-        saveCsvAttachment();
-    }
 
-    @Attachment(value = "Sample csv attachment", type = "text/csv")
-    public byte[] saveCsvAttachment() throws URISyntaxException, IOException {
-        URL resource = getClass().getClassLoader().getResource("sample.csv");
-        if (resource == null) {
-            fail("Couldn't find resource 'sample.csv'");
-        }
-        return Files.readAllBytes(Paths.get(resource.toURI()));
-    }
 }
+
 */

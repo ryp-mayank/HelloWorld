@@ -1,4 +1,5 @@
 /*
+
 package my.company.tests;
 
 import org.junit.experimental.theories.DataPoint;
@@ -16,6 +17,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
  * @author Dmitry Baev charlie@yandex-team.ru
  *         Date: 29.11.13
  *//*
+
 
 @RunWith(Theories.class)
 public class TheoryTest {
@@ -35,4 +37,5 @@ public class TheoryTest {
         assertThat(username, not(containsString("/")));
     }
 }
+
 */
